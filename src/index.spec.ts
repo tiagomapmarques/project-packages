@@ -24,7 +24,7 @@ describe('project-packages', () => {
       });
 
       describe('#getAllOfType', () => {
-        const literals = ['copyfiles', 'npm-check-updates', 'path', 'rimraf', 'webpack', 'eslint', 'typescript', 'node-sass', 'stylelint', 'jest'];
+        const literals = ['copyfiles', 'npm-check-updates', 'path', 'rimraf', 'project-packages', 'project-packages-filters', 'webpack', 'eslint', 'typescript', 'node-sass', 'stylelint', 'jest'];
         const regex = ['^webpack-.+', '.+-webpack-plugin', '.+-loader$', '^babel-.+', '^eslint-.+', '^@types/.+', '^ts-.+', '^tslint-.+', '^stylelint-.+', '^jest-.+', '.+-jest$'];
 
         it('returns all the literals', () => {

@@ -2,7 +2,7 @@ import { ProjectModules, ProjectModulesKey, ProjectModuleKey } from './types';
 
 export const DEFAULT_PACKAGES: ProjectModules = {
   PROJECT: {
-    literals: ['copyfiles', 'npm-check-updates', 'path', 'rimraf'],
+    literals: ['copyfiles', 'npm-check-updates', 'path', 'rimraf', 'project-packages', 'project-packages-filters'],
     regex: [],
   },
   WEBPACK: {
