@@ -1,6 +1,6 @@
 {
   "name": "project-packages",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Common packages for frontend projects",
   "main": "./lib/index.js",
   "scripts": {
