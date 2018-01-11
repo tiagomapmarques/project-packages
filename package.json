@@ -1,7 +1,7 @@
 {
   "name": "project-packages",
   "version": "1.0.2",
-  "description": "Common packages for frontend projects",
+  "description": "List of common packages for frontend projects",
   "main": "./lib/index.js",
   "scripts": {
     "clean": "rimraf ./lib && rimraf ./coverage",
