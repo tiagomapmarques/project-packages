@@ -1,2 +1,2 @@
 # project-packages
-Common packages for frontend projects
+List of common packages for frontend projects
