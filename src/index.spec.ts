@@ -24,7 +24,7 @@ describe('project-packages', () => {
       });
 
       describe('#getAllOfType', () => {
-        const literals = ['ncp', 'path', 'rimraf', 'webpack', 'eslint', 'typescript', 'node-sass', 'stylelint', 'jest'];
+        const literals = ['ncp', 'path', 'rimraf', 'webpack', 'prerender-spa-plugin', 'eslint', 'typescript', 'node-sass', 'stylelint', 'jest'];
         const regex = ['^project-packages(-filters)?$', '^webpack-.+', '.+-webpack-plugin', '.+-loader$', '^babel-.+', '^eslint-.+', '^@types/.+', '^ts-.+', '^tslint-.+', '^stylelint-.+', '^jest-.+', '.+-jest$'];
 
         it('returns all the literals', () => {

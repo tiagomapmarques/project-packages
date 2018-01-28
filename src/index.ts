@@ -6,7 +6,7 @@ export const DEFAULT_PACKAGES: ProjectModules = {
     regex: ['^project-packages(-filters)?$'],
   },
   WEBPACK: {
-    literals: ['webpack'],
+    literals: ['webpack', 'prerender-spa-plugin'],
     regex: ['^webpack-.+', '.+-webpack-plugin', '.+-loader$'],
   },
   BABEL: {
